@@ -1,0 +1,4 @@
+DB: vue-laravel-passport-auth
+laravel new vue-laravel-passport-auth
+cd vue-laravel-passport-auth
+----------------------------------------
