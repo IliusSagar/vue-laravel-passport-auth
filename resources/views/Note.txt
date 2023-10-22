@@ -2,3 +2,23 @@ DB: vue-laravel-passport-auth
 laravel new vue-laravel-passport-auth
 cd vue-laravel-passport-auth
 ----------------------------------------
+composer require laravel/passport --with-all-dependencies
+php artisan migrate
+php artisan passport:install
+----------------------------------------------------
+Models/User.php**
+---------------------------------------------------
+php artisan route:list
+-----------------------------------------------
+Providers/AuthServiceProviders.php**
+---------------------------------------------------
+php artisan route:list
+----------------------------------------------------
+config/auth.php**
+------------------------------------------------
+php artisan make:controller Api/AuthController
+-----------------------------------------------
+Api/AuthController.php**
+----------------------------------------------
+routes/api.php**
+----------------------------------------------
